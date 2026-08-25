@@ -1,0 +1,38 @@
+# ===============================
+# Robots.txt — newstarcase.com.br
+# ===============================
+
+# Permite rastreamento geral de todo o site
+User-agent: *
+Allow: /
+
+# Bloqueia acesso à pasta da landing page
+Disallow: /psicologa-andreia-costa/
+Disallow: /newstarcase/
+
+# Diretivas específicas para os principais mecanismos de busca
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /psicologa-andreia-costa/
+
+# Googlebot-Image (imagens)
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /psicologa-andreia-costa/
+
+# Bingbot (Microsoft)
+User-agent: Bingbot
+Allow: /
+Disallow: /psicologa-andreia-costa/
+
+# Yandex (Rússia)
+User-agent: Yandex
+Allow: /
+Disallow: /psicologa-andreia-costa/
+
+# Baidu (China)
+User-agent: Baiduspider
+Allow: /
+Disallow: /psicologa-andreia-costa/
